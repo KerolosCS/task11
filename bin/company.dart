@@ -39,8 +39,8 @@ class Company {
     address : $address
     phone : $phone
     account : $account
-    manager : $manager
-    accountant : $accountant
+    manager : ${manager.name}
+    accountant : ${accountant.name}
     ''';
   }
 }
